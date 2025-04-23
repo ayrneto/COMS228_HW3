@@ -2,17 +2,15 @@ package edu.iastate.cs2280.hw3;
 
 import java.util.*;
 
-
+/**
+ * @author Ayr Nasser Neto
+ */
 
 /**
  * Implementation of the list interface based on linked nodes
  * that store multiple items per node.  Rules for adding and removing
  * elements ensure that each node (except possibly the last one)
  * is at least half full.
- */
-
-/**
- * @author Ayr Nasser Neto
  */
 public class StoutList<E extends Comparable<? super E>> extends AbstractSequentialList<E>
 {
